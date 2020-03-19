@@ -1,3 +1,7 @@
+#!/bin/bash
+set -x  # Output executed commands
+set -e  # Make script fail as soon as one command fails
+
 for ARGUMENT in "$@"
 do
 
